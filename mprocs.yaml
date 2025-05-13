@@ -1,0 +1,11 @@
+procs:
+  backend:
+    shell: "cd resume-backend-php; symfony server:start --port=8080"
+  db:
+    shell: "docker compose up"
+  #frontend:
+   # shell: "cd liftoff_cms_frontend; npm run dev;"
+  sql:
+    shell: "lazysql;"
+  cli:
+    shell: zsh
